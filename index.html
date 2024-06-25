@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Editior - Code With Mahdi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <div class="editiors">
+
+      <div class="editior html-code">
+        <div class="editiorHead">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png" alt="">
+          <p>HTML</p>
+        </div>
+        <textarea onkeyup="updateCode()" name="html-code-value" id="html-code-value"></textarea>
+      </div>
+
+      <div class="editior html-code">
+        <div class="editiorHead">
+          <img src="https://logolook.net/wp-content/uploads/2024/03/CSS-Logo.png" alt="">
+          <p>CSS</p>
+        </div>
+        <textarea onkeyup="updateCode()" name="css-code-value" id="css-code-value"></textarea>
+      </div>
+
+      <div class="editior html-code">
+        <div class="editiorHead">
+          <img src="https://seeklogo.com/images/J/javascript-logo-E967E87D74-seeklogo.com.png" alt="">
+          <p>JavaScript</p>
+        </div>
+        <textarea onkeyup="updateCode()" name="js-code-value" id="js-code-value"></textarea>
+      </div>
+
+    </div>
+    <div class="output">
+      <iframe id="outputIframe" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
